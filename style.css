@@ -1,0 +1,12 @@
+.hero {
+	background: url(images/150614_rendering_test1.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.images img {
+	width: 300px;
+	height: 150px ;
+}

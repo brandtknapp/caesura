@@ -1,18 +1,97 @@
+body {
+	font: arial
+}
+
+.container {
+	width: auto;
+}
+
+.row {
+	margin-bottom: 100px
+	margin-top: 100px;
+}
+
+.navbar {
+	text-align: center;
+}
+
+.nav-item {
+	text-decoration: none;
+	color: #757573;
+	margin: 0 55px;
+	font-size: 20px;
+}
+
+
+.navbar p {
+	margin-top: 10px;
+}
+
 .hero {
-	background: url(images/150614_rendering_test1.jpg) center top no-repeat;
-	-webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+	background: url(images/150616_rendering_final.jpg) center top no-repeat;
   background-size: cover;
   position: relative;
+  height: 500px;
   width: 100%;
+  margin-top: -20px;
+}
+
+.intro-col-left {
+	margin-top: 150px;
+}
+
+.about-left-col, .image-left-col, .sound-col1, .event-col1, .support-col1 {
+	max-width: 550px;
+}
+
+.about, .images, .sound, .const, .events, .support {
+	margin-top: 10%;
+}
+
+.logos {
+	margin-top: 100px;
+}
+
+.logos img {
+  display: block;
+  max-width: 100px;
+  max-height: 100%;
+  margin: 0 10px;
+  width: auto;
+  height: auto;
+  float: left;
 }
 
 .images img {
 	width: 300px;
 	height: 150px ;
+	margin: 10px;
 }
 
-.support-col2 img {
-  width: 600px;
+.image-right-col {
+  width: 50%;
+}
+
+.sound-col2 {
+	margin-top: 118px;
+}
+
+.event-col2 img {
+  width: 1000px;
+}
+
+.support-col1 {
+	margin-bottom: 100px;
+}
+
+@media (min-width: 768px) {
+	width: 750px;
+}
+
+@media (min-width: 992px) {
+	width: 970px;
+}
+
+@media (min-width: 1200px) {
+
 }

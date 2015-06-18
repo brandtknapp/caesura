@@ -2,6 +2,10 @@ body {
 	font: arial
 }
 
+h4 {
+	font-weight: bold;
+}
+
 .container {
 	width: auto;
 }
@@ -73,9 +77,29 @@ body {
 	margin-left: 33%;
 }
 
+.map {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.map iframe,
+.map object,
+.map embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75%;
+}
+
+
 .images img {
-	width: 350px;
-	height: 200px ;
+	max-width: 350px;
+	height: auto;
+	/*width: 350px;*/
 	margin: 10px;
 }
 
@@ -97,11 +121,10 @@ body {
 
 .event-col2 {
   margin-left: 17%;
-/*  margin-top: 150px;
-*/}
+  width: 48%;
+}
 
 .event-col2 img {
-  max-width: 1000px;
 }
 
 .support-col1 {

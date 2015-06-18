@@ -2,6 +2,16 @@ body {
 	font: arial
 }
 
+a:link {
+		color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+		color: #B1B1B1
+    text-decoration: none;
+}
+
 h4 {
 	font-weight: bold;
 }
@@ -74,7 +84,7 @@ h4 {
 
 .second-sponsor {
 	margin-top: 70px;
-	margin-left: 33%;
+	margin-left: 32px;
 }
 
 .definition {

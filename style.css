@@ -22,7 +22,6 @@ body {
 	font-size: 20px;
 }
 
-
 .navbar p {
 	margin-top: 10px;
 }
@@ -40,31 +39,43 @@ body {
 	margin-top: 150px;
 }
 
+.date	{
+	color: #00ED8D;
+	font-weight: bold;
+}
+
 .about-left-col, .image-left-col, .sound-col1, .event-col1, .support-col1 {
 	max-width: 550px;
 }
 
 .about, .images, .sound, .const, .events, .support {
-	margin-top: 10%;
+	margin-top: 15%;
+	padding-top: 100px;
 }
 
 .logos {
-	margin-top: 100px;
+	margin-top: 223px;
+	margin-left: 15%;
 }
 
 .logos img {
-  display: block;
-  max-width: 100px;
-  max-height: 100%;
+  display: inline;
+  max-width: 150px;
+  max-height: 57px;
   margin: 0 10px;
   width: auto;
   height: auto;
   float: left;
 }
 
+.second-sponsor {
+	margin-top: 70px;
+	margin-left: 33%;
+}
+
 .images img {
-	width: 300px;
-	height: 150px ;
+	width: 350px;
+	height: 200px ;
 	margin: 10px;
 }
 
@@ -72,12 +83,25 @@ body {
   width: 50%;
 }
 
+.sound-col1 {
+	margin-top: 85px;
+}
+
 .sound-col2 {
 	margin-top: 118px;
 }
 
+/*.event-col1 {
+	margin-top: 150px;
+}*/
+
+.event-col2 {
+  margin-left: 17%;
+/*  margin-top: 150px;
+*/}
+
 .event-col2 img {
-  width: 1000px;
+  max-width: 1000px;
 }
 
 .support-col1 {

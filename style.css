@@ -53,7 +53,7 @@ h4 {
 }
 
 .about, .images, .sound, .const, .events, .support {
-	margin-top: 15%;
+	margin-top: 10%;
 	padding-top: 100px;
 }
 
@@ -75,6 +75,11 @@ h4 {
 .second-sponsor {
 	margin-top: 70px;
 	margin-left: 33%;
+}
+
+.definition {
+  margin-bottom: 35px;
+  font-size: 95%;
 }
 
 .map {

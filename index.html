@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <link rel="icon" type="image/png" href="images/c_favico.png" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">`
+    <link rel="stylesheet" href="http://blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
+    <link rel="stylesheet" href="css/bootstrap-image-gallery.min.css">
     <link rel="stylesheet" href="style.css">
     <script>
     (function(i, s, o, g, r, a, m) {
@@ -19,7 +21,7 @@
         a.async = 1;
         a.src = g;
         m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    })(window, document, 'script', 'http://www.google-analytics.com/analytics.js', 'ga');
 
     ga('create', 'UA-64155416-1', 'auto');
     ga('send', 'pageview');
@@ -156,16 +158,63 @@
                 <h1>Architecture</h1>
                 <p>The architectural component of this piece begins at the acropolis’ ground as an open air, steel frame, which supports a “horizontal tower” figuration, that the viewer can pass through and meander under. In the center of the piece, the “bell” made of mirrored steel reflects the sky to the south, where the tower stood, and the expansive view to the north of the city. Above, the rectilinear, exterior skeleton of the horizontal figure becomes a curvaceous form on the interior when the inhabitant looks up. The double-curved surfaces are seen through film tape, linear tubes and profiles of steel. Light and air movements dynamically open, pattern and break from the undulating form. Sonically, the skin resonates with voices and music and the “bell” rings with rhythm and chime by use of electromagnetic transducers attached in the fabric and on the steel. New and old histories recorded, spliced and digitally scripted together, activate the acropolis and pause throughout the day. listening . gathering . voicing .</p>
             </div>
-            <div class="col-md-4 col-md-offset-2 image-right-col">
-                <img src="images/150616_rendering_final.jpg" alt="">
-                <img src="images/siteplan1-20.jpg" alt="">
-                <img src="images/Full_Axon_w_frogs.jpg" alt="">
-                <img src="images/Exploded_Axon.jpg" alt="">
-                <img src="images/150616_Elevation_inverted_final.jpg" alt="">
-                <img src="images/150616_roof_inverted_final_-02.jpg" alt="">
+            <div class="col-md-4 col-md-offset-2 image-right-col links">
+                <a href="images/150616_rendering_final.jpg" data-gallery>
+                  <img src="images/150616_rendering_final.jpg" alt="">
+                </a>
+                <a href="images/siteplan1-20.jpg" data-gallery>
+                  <img src="images/siteplan1-20.jpg" alt="">
+                </a>
+                <a href="images/Full_Axon_w_frogs.jpg" data-gallery>
+                  <img src="images/Full_Axon_w_frogs.jpg" alt="">
+                </a>
+                <a href="images/Exploded_Axon.jpg" data-gallery>
+                  <img src="images/Exploded_Axon.jpg" alt="">
+                </a>
+                <a href="images/150616_Elevation_inverted_final.jpg" data-gallery>
+                  <img src="images/150616_Elevation_inverted_final.jpg" alt="">
+                </a>
+                <a href="images/150616_roof_inverted_final_-02.jpg" data-gallery>
+                  <img src="images/150616_roof_inverted_final_-02.jpg" alt="">
+                </a>
             </div>
         </div>
     </div>
+    <!-- Image Gallery lightbox, should be a child element of the document body -->
+    <div id="blueimp-gallery" class="blueimp-gallery" data-use-bootstrap-modal="false">
+        <!-- The container for the modal slides -->
+        <div class="slides"></div>
+        <!-- Controls for the borderless lightbox -->
+        <h3 class="title"></h3>
+        <a class="prev">‹</a>
+        <a class="next">›</a>
+        <a class="close">×</a>
+        <a class="play-pause"></a>
+        <ol class="indicator"></ol>
+        <!-- The modal dialog, which will be used to wrap the lightbox content -->
+        <div class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title"></h4>
+                    </div>
+                    <div class="modal-body next"></div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default pull-left prev">
+                            <i class="glyphicon glyphicon-chevron-left"></i>
+                            Previous
+                        </button>
+                        <button type="button" class="btn btn-primary next">
+                            Next
+                            <i class="glyphicon glyphicon-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="container sound" id="sound">
         <div class="row">
             <div class="col-sm-4 sound-col1">
@@ -232,6 +281,8 @@
 </body>
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="http://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+<script src="js/bootstrap-image-gallery.min.js"></script>
 <script src="script.js"></script>
 
 </html>

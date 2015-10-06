@@ -63,10 +63,10 @@ h2{
 	margin-top: 150px;
 }
 
-.date	{
+/*.date	{
 	color: #00ED8D;
 	font-weight: bold;
-}
+}*/
 
 .about-left-col, .image-left-col, .sound-col1, .event-col1, .support-col1 {
 	max-width: 550px;
@@ -154,6 +154,19 @@ h2{
 
 .support-col1 {
 	margin-bottom: 100px;
+}
+
+.promo {
+	position: absolute;
+	margin-top: 405px;
+	background-color:rgba(255,255,255,0.6);
+}
+
+.promo a{
+	font-size: 4em;
+	color: #E26BD0;
+	text-align: center;
+	padding: 10px;
 }
 
 @media (min-width: 768px) {

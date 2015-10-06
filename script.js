@@ -12,3 +12,10 @@ $(function() {
     }
   });
 });
+
+$(function(){
+     var navMain = $("#navbar-items");
+     navMain.on("click", "a", null, function () {
+         navMain.collapse('hide');
+     });
+ });

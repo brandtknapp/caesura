@@ -1,5 +1,6 @@
 body {
 	font: arial
+	position: relative;
 }
 
 a:link {
@@ -46,7 +47,17 @@ h2{
 	font-size: 20px;
 }
 
-.navbar p {
+#navbar-items ul {
+  list-style:none;
+  padding:0;
+  margin: 0 auto;
+}
+
+#navbar-items {
+	margin-top: 10px;
+}
+
+.nav-container {
 	margin-top: 10px;
 }
 
@@ -104,6 +115,7 @@ h2{
 
 .map {
     position: relative;
+    margin: 0 auto;
     padding-bottom: 56.25%;
     padding-top: 30px;
     height: 0;
@@ -117,7 +129,7 @@ h2{
     top: 0;
     left: 0;
     width: 100%;
-    height: 75%;
+    height: 100%;
     pointer-events: none;
 }
 
@@ -125,12 +137,20 @@ h2{
 .images img {
 	max-width: 350px;
 	height: auto;
-	/*width: 350px;*/
 	margin: 10px;
 }
 
 .image-right-col {
   width: 50%;
+}
+
+.gallery-two {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.gallery-two a {
+	position: inline-block;
 }
 
 .sound-col1 {
@@ -141,9 +161,6 @@ h2{
 	margin-top: 118px;
 }
 
-/*.event-col1 {
-	margin-top: 150px;
-}*/
 
 .event-col2 {
   margin-left: 17%;
@@ -176,15 +193,29 @@ h2{
 		margin-top: 405px;
 	}
 	.promo a{
-		font-size: 4em;
+		font-size: 3em;
+	}
+
+	#navbar-items ul li {
+	    float:left;
 	}
 
 }
 
 @media (min-width: 992px) {
 	width: 970px;
+
 }
 
 @media (min-width: 1200px) {
+	.promo {
+		margin-top: 410px;
+	}
 
+}
+
+@media (min-width: 1600px) {
+	.promo a{
+		font-size: 4em;
+	}
 }

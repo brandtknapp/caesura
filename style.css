@@ -76,11 +76,6 @@ h2{
 	margin-top: 150px;
 }
 
-/*.date	{
-	color: #00ED8D;
-	font-weight: bold;
-}*/
-
 .about-left-col, .image-left-col, .sound-col1, .event-col1, .support-col1 {
 	max-width: 550px;
 }

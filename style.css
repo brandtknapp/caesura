@@ -62,8 +62,10 @@ h2{
 }
 
 .hero {
-	background: url(images/150616_rendering_final.jpg) center top no-repeat;
-  background-size: cover;
+	background: url(images/01-cropped.jpg) center top no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
   position: relative;
   height: 500px;
   width: 100%;
@@ -90,7 +92,7 @@ h2{
 
 .logos {
 	margin-top: 175px;
-	margin-left: 15%;
+	float: right;
 }
 
 .logos img {
@@ -196,14 +198,30 @@ h2{
 		font-size: 3em;
 	}
 
+	.logos div {
+  	float: right;
+  	position: absolute;
+  	right: 0px;
+  	width: 455px;
+	}
+
+	#navbar-items ul {
+		text-align: center;
+	}
+
 	#navbar-items ul li {
-	    float:left;
+		display: inline-block;
+		margin: 0 -25px;
 	}
 
 }
 
 @media (min-width: 992px) {
 	width: 970px;
+
+	#navbar-items ul li {
+		margin: 0;
+	}
 
 }
 

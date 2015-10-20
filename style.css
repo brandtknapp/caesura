@@ -177,13 +177,14 @@ h2{
 	position: relative;
 	margin-top: 370px;
 	text-align: center;
-	background-color:rgba(255,255,255,0.2);
+	background-color:rgba(0,0,0,0.2);
 }
 
 .promo a{
 	font-size: 2em;
-	color: #E26BD0;
+	color: #FFFFFF;
 	padding: 10px;
+	text-decoration: underline;
 }
 
 @media (min-width: 768px) {

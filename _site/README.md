@@ -1,0 +1,1 @@
+[caesura](http://www.caesura.nyc): a forum is a site-specific sound and architectural installation, to be presented on the Acropolis in Marcus Garvey Park. The installation provides a space for gathering, listening, and community within the Harlem Park and is inspired by the park’s historic Fire Watchtower bell and past as a site for activist organizing.
